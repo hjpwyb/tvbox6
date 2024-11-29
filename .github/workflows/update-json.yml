@@ -1,4 +1,4 @@
-name: Update JSON Files
+name: Update JSON and TXT Files
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
-  update-json:
+  update-files:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,8 +22,9 @@ jobs:
       - name: Install Dependencies
         run: npm install -g json jq
 
-      - name: Replace Text in JSON Files
+      - name: Replace Text in JSON and TXT Files
         run: |
+          # 处理 JSON 文件
           find . -name "*.json" | while read -r file; do
             echo "Processing $file"
             # 检查是否为有效的 JSON 文件
@@ -36,10 +37,17 @@ jobs:
             fi
           done
 
+          # 处理 TXT 文件
+          find . -name "*.txt" | while read -r file; do
+            echo "Processing $file"
+            # 使用 sed 替换 .txt 文件中的链接
+            sed -i 's|https://gitdl.cn|https://ghp.ci|g' "$file"
+          done
+
       - name: Commit and Push Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Update JSON files to use https://ghp.ci" || echo "No changes to commit"
+          git commit -m "Update JSON and TXT files to use https://ghp.ci" || echo "No changes to commit"
           git push
