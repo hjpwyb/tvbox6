@@ -30,7 +30,7 @@ jobs:
             # 检查是否为有效的 JSON 文件
             if jq empty "$file" 2>/dev/null; then
               # 处理有效 JSON 文件，替换链接
-              json -I -f "$file" -e 'Object.keys(this).forEach(key => { if (typeof this[key] === "string") { this[key] = this[key].replace("https://gitdl.cn", "https://ghp.ci"); this[key] = this[key].replace("https://raw.githubusercontent.com/fish2018/tvbox/master", "https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/") } })'
+              json -I -f "$file" -e 'Object.keys(this).forEach(key => { if (typeof this[key] === "string") { this[key] = this[key].replace("https://gitdl.cn", "https://ghp.ci"); this[key] = this[key].replace("https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/", "https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master") } })'
             else
               # 如果是无效 JSON 文件，跳过
               echo "Skipping $file (invalid JSON)"
@@ -42,7 +42,7 @@ jobs:
             echo "Processing $file"
             # 使用 sed 替换 .txt 文件中的两个链接
             sed -i 's|https://gitdl.cn|https://ghp.ci|g' "$file"
-            sed -i 's|https://raw.githubusercontent.com/fish2018/tvbox/master|https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/|g' "$file"
+            sed -i 's|https://raw.githubusercontent.com/fish2018/tvbox/master/|https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master|g' "$file"
           done
 
       - name: Commit and Push Changes
