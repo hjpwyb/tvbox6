@@ -1,5 +1,5 @@
 {
-    "spider": "https://ghp.ci/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master//jar/娱乐影院09.jar",
+    "spider": "https://ghp.ci/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/娱乐影院09.jar",
     "wallpaper": "https://bg.s.welsun.win/api",
     "lives": [
         {

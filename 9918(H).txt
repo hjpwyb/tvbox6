@@ -1,5 +1,5 @@
 {
-"spider":"https://ghp.ci/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master//jar/9918(H).jar",
+"spider":"https://ghp.ci/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/9918(H).jar",
 "lives":[{"name":"初秋语","type":0,"url":"https://ghp.ci/https://raw.githubusercontent.com/gaotianliuyun/gao/master/listx.txt"},
 {"name":"YanG","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u"},
 {"name":"atsushi","type":0,"url":"https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"},
