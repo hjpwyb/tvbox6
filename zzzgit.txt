@@ -5,7 +5,7 @@
 
 
 //0730JAR
-"spider":"https://ghp.ci/https://raw.githubusercontent.com/fish2018/tvbox/master/jar/zzzgit.jar",
+"spider":"https://ghp.ci/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master//jar/zzzgit.jar",
 
 
 
