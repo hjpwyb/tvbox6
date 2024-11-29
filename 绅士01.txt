@@ -1,6 +1,6 @@
 
 {
- "spider":"https://gitdl.cn/https://raw.githubusercontent.com/fish2018/tvbox/master/jar/绅士01.jar",
+ "spider":"https://ghp.ci/https://raw.githubusercontent.com/fish2018/tvbox/master/jar/绅士01.jar",
      
      "lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8wOTAzemgudHh0"]}]}],
      

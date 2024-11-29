@@ -1069,5 +1069,5 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "spider": "https://gitdl.cn/https://raw.githubusercontent.com/fish2018/tvbox/master/jar/Study520x.jar"
+  "spider": "https://ghp.ci/https://raw.githubusercontent.com/fish2018/tvbox/master/jar/Study520x.jar"
 }

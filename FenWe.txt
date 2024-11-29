@@ -1073,13 +1073,13 @@
   ],
   "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
   "lives": [{"group": "redirect","channels": [
-{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=https://gitdl.cn/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt"]}]},
-{"name": "玩偶姐姐全套","type": 0,"url": "https://gitdl.cn/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u","epg": "http://epg.hklive.tv","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=https://ghp.ci/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt"]}]},
+{"name": "玩偶姐姐全套","type": 0,"url": "https://ghp.ci/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u","epg": "http://epg.hklive.tv","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name": "大全","type": 0,"url": "https://www.fenwe.tk:521/tv/大全.txt","epg": "http://epg.hklive.tv","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {
             "name": "YouTube",
             "type": 0,
-            "url": "https://gitdl.cn/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
+            "url": "https://ghp.ci/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
         },
