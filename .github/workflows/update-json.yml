@@ -4,11 +4,12 @@ on:
   push:
     branches:
       - main  # 触发工作流的分支
-  workflow_dispatch:  # 添加手动触发功能
+  workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -19,13 +20,20 @@ jobs:
           node-version: '16'
 
       - name: Install Dependencies
-        run: npm install -g json
+        run: npm install -g json jq
 
       - name: Replace Text in JSON Files
         run: |
           find . -name "*.json" | while read -r file; do
             echo "Processing $file"
-            json -I -f "$file" -e 'Object.keys(this).forEach(key => { if (typeof this[key] === "string") this[key] = this[key].replace("https://gitdl.cn", "https://ghp.ci") })'
+            # 检查是否为有效的 JSON 文件
+            if jq empty "$file" 2>/dev/null; then
+              # 处理有效 JSON 文件，替换链接
+              json -I -f "$file" -e 'Object.keys(this).forEach(key => { if (typeof this[key] === "string") this[key] = this[key].replace("https://gitdl.cn", "https://ghp.ci") })'
+            else
+              # 如果是无效 JSON 文件，跳过
+              echo "Skipping $file (invalid JSON)"
+            fi
           done
 
       - name: Commit and Push Changes
