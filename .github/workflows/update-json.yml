@@ -42,7 +42,7 @@ jobs:
             echo "Processing $file"
             # 使用 sed 替换 .txt 文件中的两个链接
             sed -i 's|https://gitdl.cn|https://ghp.ci|g' "$file"
-            sed -i 's|https://raw.githubusercontent.com/fish2018/tvbox/master/|https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master|g' "$file"
+            sed -i 's|https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/|https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master|g' "$file"
           done
 
       - name: Commit and Push Changes
