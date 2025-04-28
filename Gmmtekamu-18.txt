@@ -1,5 +1,5 @@
 {
-"spider": "https://ghp.ci/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/Gmmtekamu-18.jar",
+"spider": "https://kenyu.ggff.net/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/Gmmtekamu-18.jar",
 "sites": [          
 
 {"key":"csp_77","name":"77","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
