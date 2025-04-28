@@ -1,6 +1,6 @@
 {
   "wallpaper": "https://picsum.photos/1080/",
-  "spider": "https://ghp.ci/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/baip9+9.jar",
+  "spider": "https://kenyu.ggff.net/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/baip9+9.jar",
   "lives": [{"group": "redirect","channels": [{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpL2xsaTg3NzkxODIvOS9yYXcvYnJhbmNoL21hc3Rlci9oemI="]}]}],
   "sites": [
     {"key": "csp_biubiu_四虎","name": "🏆四虎","type": 3,"api": "csp_XBiubiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://raw.iqiq.io/2hacc/TVBox/main/H/json/四虎影院.json"},
