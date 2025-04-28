@@ -1,5 +1,5 @@
 {
-    "spider": "https://ghp.ci/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/mengzehe[516].jar",
+    "spider": "https://kenyu.ggff.net/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/mengzehe[516].jar",
     "wallpaper": "https://invalid.gq/IS8nrIwAOp7v1A",
     "lives": [
         {
