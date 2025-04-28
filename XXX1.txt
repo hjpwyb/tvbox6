@@ -1,5 +1,5 @@
 {
-"spider":"https://ghp.ci/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/XXX1.jar",
+"spider":"https://kenyu.ggff.net/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/XXX1.jar",
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":[
 "proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vYnJlYWRteXRoL3R2L3Jhdy9icmFuY2gvbWFpbi9saXZlL2h1eWEudHh0"
 ]}]}],
