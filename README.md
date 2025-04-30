@@ -1,6 +1,6 @@
 ## 当前仓库配置地址([fish2018/tvbox](https://github.com/fish2018/tvbox))
 ```bash
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/fish2018/tvbox/master/all.json
+https://raw.githubusercontent.com/fish2018/tvbox/master/all.json
 https://raw.yzuu.cf/fish2018/tvbox/master/all.json
 https://fastly.jsdelivr.net/gh/fish2018/tvbox/all.json
 ```
@@ -84,7 +84,7 @@ docker run --rm -e repo=ol -e mirror=2 -e jar_suffix=css -e token=XXX -e usernam
 开始下载【线路】OK: http://py.nxog.top/?ou=http://ok321.top/ok
 开始下载【线路】盒子迷: http://py.nxog.top/?ou=https://盒子迷.top/禁止贩卖
 开始下载【线路】D佬: https://download.kstore.space/download/2883/nzk/nzk0722.json
-开始下载【线路】PG: https://gh.con.sh/https://raw.githubusercontent.com/ouhaibo1980/tvbox/master/pg/jsm.json
+开始下载【线路】PG: https://raw.githubusercontent.com/ouhaibo1980/tvbox/master/pg/jsm.json
 开始下载【线路】肥猫: http://py.nxog.top/?ou=http://肥猫.com
 开始下载【线路】小米: http://py.nxog.top/?ou=http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/DEMO.json
 开始下载【线路】放牛: http://py.nxog.top/?ou=http://tvbox.xn--4kq62z5rby2qupq9ub.top
@@ -92,14 +92,14 @@ docker run --rm -e repo=ol -e mirror=2 -e jar_suffix=css -e token=XXX -e usernam
 开始下载【线路】天天开心: http://ttkx.live:55/天天开心
 开始下载【线路】摸鱼: http://我不是.摸鱼儿.top
 开始下载【线路】老刘备: https://raw.liucn.cc/box/m.json
-开始下载【线路】香雅情: https://gh.con.sh/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json
+开始下载【线路】香雅情: https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json
 开始下载【线路】俊佬: http://home.jundie.top:81/top98.json
-开始下载【线路】月光: https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/max.json
+开始下载【线路】月光: https://raw.githubusercontent.com/guot55/yg/main/max.json
 开始下载【线路】巧技: http://cdn.qiaoji8.com/tvbox.json
-开始下载【线路】荷城茶秀: https://gh.con.sh/https://raw.githubusercontent.com/HeChengChaXiu/tvbox/main/hccx.json
+开始下载【线路】荷城茶秀: https://raw.githubusercontent.com/HeChengChaXiu/tvbox/main/hccx.json
 开始下载【线路】云星日记: http://itvbox.cc/云星日记
 开始下载【线路】吾爱: http://52pan.top:81/api/v3/file/get/174964/%E5%90%BE%E7%88%B1%E8%AF%84%E6%B5%8B.m3u?sign=rPssLoffquDXszCARt6UNF8MobSa1FA27XomzOluJBY%3D%3A0
-开始下载【线路】南风: https://gh.con.sh/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json
+开始下载【线路】南风: https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json
 开始下载【线路】2游魂收集不分排名: https://xn--s6wu47g.u.nxog.top/m/333.php?ou=公众号欧歌app&mz=all&jar=all&b=游魂
 开始写入单仓🌹游魂主仓库🌹.json
 开始写入tvbox.json
@@ -110,8 +110,8 @@ docker run --rm -e repo=ol -e mirror=2 -e jar_suffix=css -e token=XXX -e usernam
 
 #################影视仓APP配置接口########################
 
-https://gitdl.cn/https://raw.githubusercontent.com/fish2018/ol/main/all.json
-https://gitdl.cn/https://raw.githubusercontent.com/fish2018/ol/main/tvbox.json
+https://raw.githubusercontent.com/fish2018/ol/main/all.json
+https://raw.githubusercontent.com/fish2018/ol/main/tvbox.json
 
 ```
   
