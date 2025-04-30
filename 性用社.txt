@@ -1,5 +1,5 @@
 {
-    "spider": "https://kenyu.ggff.net/https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/性用社.jar",
+    "spider": "https://raw.githubusercontent.com/hjpwyb/tvbox6/refs/heads/master/jar/性用社.jar",
     "wallpaper": "https://tuapi.eees.cc/api.php?category=meinv&type=302",
     "lives": [],
    "rules": [ {"host":"*", "rule":["iesdouyin.com/aweme", "video_id="]}, {"host":"*", "rule":["huoshan.com", "/item/video/"]}, {"host":"*", "rule":["http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"]}, {"host":"*", "rule":["http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"]} ],
